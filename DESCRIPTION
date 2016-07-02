@@ -1,6 +1,6 @@
 Package: ttbbeer
 Type: Package
-Title: US Beer Statistics From TTB
+Title: US Beer Statistics from TTB
 Version: 1.0.0
 Authors@R: person("Jasmine", "Dumas", email = "jasmine.dumas@gmail.com", role = c("aut", "cre"))
 Description: U.S. Department of the Treasury, Alcohol and Tobacco Tax and
