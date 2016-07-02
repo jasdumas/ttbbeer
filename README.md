@@ -2,7 +2,7 @@
 
 ### An R data package of beer statistics from U.S. Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau (TTB)
 
-This package provides the data for materials used at U.S. breweries as listed in the [Beer Monthly Statistical Releases](https://www.ttb.gov/beer/beer-stats.shtml). The motivation behind this package was to provide an analytic-ready data set as the original data is in PDF format which can be diffcult to read in into R, given the small ecosystem of PDF parsing R packages such as: tm, and tabulizer. 
+This package provides the data for materials used at U.S. breweries as listed in the [Beer Monthly Statistical Releases](https://www.ttb.gov/beer/beer-stats.shtml). The motivation behind this package was to provide an analytic-ready data set as the original data is in PDF format which can be difficult to read in into R, given the small ecosystem of PDF parsing R packages such as: tm, and tabulizer. 
 
 ## Installation
 
@@ -23,7 +23,7 @@ library(ttbbeer)
 
 ## How to use this package?
 
-The main and only components of the package is a dataset called `beermaterials` with the materials used by U.S. breweries during beer production as reported on a monthly basis to the U.S. Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau (TTB). Several differnt types of data anaylsis project can be conducted by using this data such as: EDA, and time series analysis. The intended audience of this data is everyone but expecially for those interested in open government data or beer analytics.
+The main and only components of the package is a data set called `beermaterials` with the materials used by U.S. breweries during beer production as reported on a monthly basis to the U.S. Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau (TTB). Several different types of data analysis project can be conducted by using this data such as: EDA, and time series analysis. The intended audience of this data is everyone but especially for those interested in open government data or beer analytics.
 
 ```r
 data("beermaterials")
