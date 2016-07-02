@@ -1,17 +1,19 @@
 Package: ttbbeer
 Type: Package
 Title: US Beer Statistics From TTB
-Version: 0.0.0.9
+Version: 1.0.0
 Authors@R: person("Jasmine", "Dumas", email = "jasmine.dumas@gmail.com", role = c("aut", "cre"))
-Description:  U.S. Department of the Treasury, Alcohol and Tobacco Tax and
-              Trade Bureau (TTB) collects data and reports on monthly beer
-              industry production and operations. This data package includes
-              a collection of 5 years worth of data on materials used at U.S.
-              breweries in pounds reported by the Brewer's Report of Operations
-              and the Quarterly Brewer's Report of Operations forms, ready
-              for data analysis.
+Description: U.S. Department of the Treasury, Alcohol and Tobacco Tax and
+    Trade Bureau (TTB) collects data and reports on monthly beer
+    industry production and operations. This data package includes
+    a collection of 10 years (2006 - 2015) worth of data on materials
+    used at U.S. breweries in pounds reported by the Brewer's Report
+    of Operations and the Quarterly Brewer's Report of Operations
+    forms, ready for data analysis.
 URL: https://github.com/jasdumas/ttbbeer
 BugReports: https://github.com/jasdumas/ttbbeer/issues
-Depends: R (>= 3.1.2)
+Depends:
+    R (>= 3.1.2)
 License: CC0 + file LICENSE
 LazyData: TRUE
+RoxygenNote: 5.0.1
