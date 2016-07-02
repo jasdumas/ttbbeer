@@ -2,11 +2,18 @@
 
 ### An R data package of beer statistics from U.S. Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau (TTB)
 
-This package provides the data for materials used at U.S. breweries as listed in the [Beer Monthly Statistical Releases](https://www.ttb.gov/beer/beer-stats.shtml). The motivation behind this package was to provide an analytic-ready data set as the original data is in PDF format.
+This package provides the data for materials used at U.S. breweries as listed in the [Beer Monthly Statistical Releases](https://www.ttb.gov/beer/beer-stats.shtml). The motivation behind this package was to provide an analytic-ready data set as the original data is in PDF format which can be diffcult to read in into R, given the small ecosystem of PDF parsing R packages such as: tm, and tabulizer. 
 
 ## Installation
 
 To install the package type the following:
+
+```r
+install.packages("ttbbeer")
+library("ttbbeer")
+```
+
+Or you can install the development version from Github:
 
 ```r
 library(devtools)
@@ -15,6 +22,8 @@ library(ttbbeer)
 ```
 
 ## How to use this package?
+
+The main and only components of the package is a dataset called `beermaterials` with the materials used by U.S. breweries during beer production as reported on a monthly basis to the U.S. Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau (TTB). Several differnt types of data anaylsis project can be conducted by using this data such as: EDA, and time series analysis. The intended audience of this data is everyone but expecially for those interested in open government data or beer analytics.
 
 ```r
 data("beermaterials")
