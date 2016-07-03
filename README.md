@@ -1,7 +1,5 @@
 ![](https://travis-ci.org/jasdumas/ttbbeer.svg?branch=master)
 
-[![](http://cranlogs.r-pkg.org/badges/ttbbeer)](http://cran.rstudio.com/web/packages/ttbbeer/index.html)
-
 # ttbbeer
 
 ### An R data package of beer statistics from U.S. Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau (TTB)
