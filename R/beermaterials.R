@@ -1,7 +1,7 @@
 #' The beermaterials dataset
 #' The dataset was transcribed from PDF's to a .rda dataset
 #'
-#' @source \url{https://www.ttb.gov/beer/beer-stats.shtml}
+#' @source \url{https://catalog.data.gov/dataset/beer-production-and-operations-reports}
 #' @format A data frame with 120 observations of 11 variables:
 #' \describe{
 #'  \item{Month}{Month of the year}
