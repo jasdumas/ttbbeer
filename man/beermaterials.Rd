@@ -20,7 +20,7 @@ The dataset was transcribed from PDF's to a .rda dataset}
  \item{Other}{Other materials such as flavor, in pounds}
 }}
 \source{
-\url{https://www.ttb.gov/beer/beer-stats.shtml}
+\url{https://catalog.data.gov/dataset/beer-production-and-operations-reports}
 }
 \usage{
 beermaterials
