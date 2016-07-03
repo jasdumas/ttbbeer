@@ -8,9 +8,13 @@
 ## R CMD check results
 There were no ERRORs or WARNINGs.
 
-0 errors | 0 warnings | 0 notes
+0 errors | 0 warnings | 1 notes
 
-* This is my first submission so other notes may arise from that.
+There was 1 NOTE:
+
+* This is my first submission to CRAN so one note may arise from that. Everything else has been satisfied and no other NOTEs appear.
+
+Additional Comments:
 * TTB is not a misspelling but an acronym.
 * The URL and BugReports links to the github repository.
 
