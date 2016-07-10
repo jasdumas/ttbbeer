@@ -6,7 +6,7 @@
 
 This package provides the **one** data set for materials used at U.S. breweries as listed in the [Beer Monthly Statistical Releases](https://www.ttb.gov/beer/beer-stats.shtml), and **eight** data sets for [historical tax rates](https://www.ttb.gov/tax_audit/94a01_4.shtml) of distilled spirits, wine, beer, champagne, and tobacco. 
 
-The motivation behind this package was to provide analytic-ready data sets as the original data for the `beermaterials` is in PDF format which can be difficult to read in into R, given the small ecosystem of PDF parsing R packages such as: `tm`, and `tabulizer`. Other goals of this package are to provide more data sets to the R ecosystem for beer analytics from *open government data portals*.
+The motivation behind this package was to provide analytic-ready data sets as the original data for the `beermaterials` is in PDF format which can be difficult to read into R, given the small ecosystem of PDF parsing R packages such as: `tm`, and `tabulizer`. Other goals of this package are to provide more data sets to the R ecosystem for beer analytics from *open government data portals*.
 
 ## How to install this package?
 
