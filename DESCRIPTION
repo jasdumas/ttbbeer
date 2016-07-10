@@ -1,7 +1,7 @@
 Package: ttbbeer
 Type: Package
 Title: US Beer Statistics from TTB
-Version: 1.0.1
+Version: 1.1.1
 Authors@R: person("Jasmine", "Dumas", email = "jasmine.dumas@gmail.com", role = c("aut", "cre"))
 Description: U.S. Department of the Treasury, Alcohol and Tobacco Tax and
     Trade Bureau (TTB) collects data and reports on monthly beer
@@ -9,7 +9,9 @@ Description: U.S. Department of the Treasury, Alcohol and Tobacco Tax and
     a collection of 10 years (2006 - 2015) worth of data on materials
     used at U.S. breweries in pounds reported by the Brewer's Report
     of Operations and the Quarterly Brewer's Report of Operations
-    forms, ready for data analysis.
+    forms, ready for data analysis. This package also includes historical
+    tax rates on distilled spirits, wine, beer, champagne, and tobacco
+    products as individual data sets.
 URL: https://github.com/jasdumas/ttbbeer
 BugReports: https://github.com/jasdumas/ttbbeer/issues
 Depends:
