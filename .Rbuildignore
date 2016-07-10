@@ -9,3 +9,5 @@
 ^cran-comments\.md$
 ^ttbbeer\.Rproj$
 ^\.travis\.yml$
+^get_data_process\.R$
+^data-raw$
