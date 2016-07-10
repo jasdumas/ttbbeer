@@ -25,7 +25,7 @@ library(ttbbeer)
 
 ## How to use this package?
 
-The main and only components of the package is a data set called `beermaterials` with the materials used by U.S. breweries during beer production as reported on a monthly basis to the U.S. Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau (TTB). Several different types of data analysis project can be conducted by using this data such as: EDA, and time series analysis. The intended audience of this data is everyone but especially for those interested in open government data or beer analytics.
+The main and only components of the package is a data set called `beermaterials` which includes the materials used by U.S. breweries during beer production as reported on a monthly basis to the U.S. Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau (TTB)fomr 2006 to 2015. Several different types of data analysis projects can be conducted by using this data such as: EDA, and time series analysis. The intended audience of this data is everyone but especially for those interested in open government data or beer analytics.
 
 ```r
 data("beermaterials")
