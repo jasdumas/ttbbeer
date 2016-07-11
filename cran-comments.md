@@ -1,5 +1,26 @@
 # cran-comments.md
 
+
+## Test environments
+* local Mac OS install, R 3.3.1
+* ubuntu 12.04 (on travis-ci), R 3.1.2
+* win-builder via devtools::build_win()
+
+## R CMD check results
+There were no ERRORs, WARNINGs or NOTEs.
+R CMD check results
+0 errors | 0 warnings | 0 notes
+R CMD check succeeded
+
+Additional Comments:
+* TTB is not a misspelling but an acronym.
+
+## Release Commentary
+
+* 2016-07-10: Eight new data sets have been added to this package and the documentation has been updated.
+
+______
+
 ## Test environments
 * local Mac OS install, R 3.3.1
 * ubuntu 12.04 (on travis-ci), R 3.1.2
