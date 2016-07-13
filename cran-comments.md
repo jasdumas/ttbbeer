@@ -7,9 +7,9 @@
 * win-builder via devtools::build_win()
 
 ## R CMD check results
-There were no ERRORs, WARNINGs or NOTEs.
-R CMD check results
-0 errors | 0 warnings | 0 notes
+There were no ERRORs, WARNINGs or NOTEs.       
+R CMD check results      
+0 errors | 0 warnings | 0 notes         
 R CMD check succeeded
 
 Additional Comments:
