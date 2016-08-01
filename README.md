@@ -6,7 +6,7 @@
 
 This package provides the **one** data set for materials used at U.S. breweries as listed in the [Beer Monthly Statistical Releases](https://www.ttb.gov/beer/beer-stats.shtml), and **eight** data sets for [historical tax rates](https://www.ttb.gov/tax_audit/94a01_4.shtml) of distilled spirits, wine, beer, champagne, and tobacco. 
 
-The motivation behind this package was to provide analytic-ready data sets as the original data for the `beermaterials` is in PDF format which can be difficult to read into R, given the small ecosystem of PDF parsing R packages such as: `tm`, and `tabulizer`. Other goals of this package are to provide more data sets to the R ecosystem for beer analytics from *open government data portals*.
+The motivation behind this package was to provide analysis-ready data sets as the original data for the `beermaterials` is in PDF format which can be difficult to read into R, given the small ecosystem of PDF parsing R packages such as: `tm`, and `tabulizer`. Other goals of this package are to provide more data sets to the R ecosystem for beer analytics from *open government data portals*.
 
 ## How to install this package?
 
@@ -27,9 +27,9 @@ library(ttbbeer)
 
 ## How to use this package?
 
-The components of the package are a data set called `beermaterials` which includes the materials used by U.S. breweries during beer production as reported on a monthly basis to the U.S. Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau (TTB) from 2006 to 2015. The other components of this package include eight data sets depicting the historical tax rate of distilled spirits, wine, beer, champagne, and tobacco. 
+The components of the package are a data set called `beermaterials` which includes the materials used by U.S. breweries during beer production as reported on a monthly basis to the U.S. Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau (TTB) from 2006 to 2015. The other components of this package include **eight data sets** depicting the historical tax rate of distilled spirits, wine, beer, champagne, and tobacco. 
 
-Several different types of data analysis projects can be conducted by using this data such as: Exploratory Data Analysis, and Time Series Analysis. The intended audience of this data is everyone but especially for those interested in open government data or beer analytics.
+Several different types of data analysis projects can be conducted by using this data such as: **Exploratory Data Analysis**, and **Time Series Analysis**. The intended audience of this data is everyone but especially for those interested in open government data or beer analytics.
 
 ```r
 data("beermaterials")
@@ -47,4 +47,4 @@ This project is released with a [Contributor Code of Conduct](https://github.com
 
 ## Contact
 
-Author: Jasmine Dumas [@jasdumas](https://twitter.com/jasdumas) | [jasdumas.github.io](http://jasdumas.github.io/) | [Package Wiki](https://github.com/jasdumas/ttbbeer/wiki)
+Package Author: Jasmine Dumas [@jasdumas](https://twitter.com/jasdumas) | [jasdumas.github.io](http://jasdumas.github.io/) | [Package Wiki](https://github.com/jasdumas/ttbbeer/wiki)

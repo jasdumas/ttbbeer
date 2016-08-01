@@ -1,8 +1,6 @@
-# ttbbeer 1.1.1 
+# ttbbeer 1.1.0
 
 * 2016-07-10: 8 additional datasets for historical tax rates have been added. bump major revision.
-
-# ttbbeer 1.0.1
 
 * 2016-07-10: updated documentation for the package.
 

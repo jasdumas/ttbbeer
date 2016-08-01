@@ -1,5 +1,6 @@
 # cran-comments.md
 
+# ttbeer 1.1.0
 
 ## Test environments
 * local Mac OS install, R 3.3.1
@@ -20,6 +21,8 @@ Additional Comments:
 * 2016-07-10: Eight new data sets have been added to this package and the documentation has been updated.
 
 ______
+
+# ttbeer 1.0.0
 
 ## Test environments
 * local Mac OS install, R 3.3.1
