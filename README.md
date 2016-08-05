@@ -48,3 +48,8 @@ This project is released with a [Contributor Code of Conduct](https://github.com
 ## Contact
 
 Package Author: Jasmine Dumas [@jasdumas](https://twitter.com/jasdumas) | [jasdumas.github.io](http://jasdumas.github.io/) | [Package Wiki](https://github.com/jasdumas/ttbbeer/wiki)
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/jasdumas/ttbbeer/badge.svg?style=beer-square)](https://beerpay.io/jasdumas/ttbbeer)  [![Beerpay](https://beerpay.io/jasdumas/ttbbeer/make-wish.svg?style=flat-square)](https://beerpay.io/jasdumas/ttbbeer?focus=wish)
