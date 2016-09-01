@@ -1,4 +1,4 @@
-![](https://travis-ci.org/jasdumas/ttbbeer.svg?branch=master) 
+![](https://travis-ci.org/jasdumas/ttbbeer.svg?branch=master) [![Rdoc](http://www.rdocumentation.org/badges/version/ttbbeer)](http://www.rdocumentation.org/packages/ttbbeer)
 
 # ttbbeer
 
