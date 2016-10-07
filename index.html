@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Ttbbeer by jasdumas</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Ttbbeer</h1>
+          <h2>An R Dataset Package for US Beer Statistics From TTB :beer:</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/jasdumas/ttbbeer/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/jasdumas/ttbbeer/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/jasdumas/ttbbeer" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <p><img src="https://travis-ci.org/jasdumas/ttbbeer.svg?branch=master" alt=""> <a href="http://www.rdocumentation.org/packages/ttbbeer"><img src="http://www.rdocumentation.org/badges/version/ttbbeer" alt="Rdoc"></a>
+<a href="http://cran.rstudio.com/web/packages/ttbbeer/index.html"><img src="http://cranlogs.r-pkg.org/badges/ttbbeer" alt=""></a>
+<a href="http://cran.rstudio.com/web/packages/ttbbeer/index.html"><img src="http://cranlogs.r-pkg.org/badges/grand-total/ttbbeer" alt=""></a></p>
+
+<h1>
+<a id="ttbbeer" class="anchor" href="#ttbbeer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ttbbeer</h1>
+
+<h3>
+<a id="an-r-data-package-of-beer-statistics-from-us-department-of-the-treasury-alcohol-and-tobacco-tax-and-trade-bureau-ttb" class="anchor" href="#an-r-data-package-of-beer-statistics-from-us-department-of-the-treasury-alcohol-and-tobacco-tax-and-trade-bureau-ttb" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>An R data package of beer statistics from U.S. Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau (TTB)</h3>
+
+<p>This package provides the <strong>one</strong> data set for materials used at U.S. breweries as listed in the <a href="https://www.ttb.gov/beer/beer-stats.shtml">Beer Monthly Statistical Releases</a>, and <strong>eight</strong> data sets for <a href="https://www.ttb.gov/tax_audit/94a01_4.shtml">historical tax rates</a> of distilled spirits, wine, beer, champagne, and tobacco. </p>
+
+<p>The motivation behind this package was to provide analysis-ready data sets as the original data for the <code>beermaterials</code> is in PDF format which can be difficult to read into R, given the small ecosystem of PDF parsing R packages such as: <code>tm</code>, and <code>tabulizer</code>. Other goals of this package are to provide more data sets to the R ecosystem for beer analytics from <em>open government data portals</em>.</p>
+
+<h2>
+<a id="how-to-install-this-package" class="anchor" href="#how-to-install-this-package" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to install this package?</h2>
+
+<p>To install the package type the following:</p>
+
+<div class="highlight highlight-source-r"><pre>install.packages(<span class="pl-s"><span class="pl-pds">"</span>ttbbeer<span class="pl-pds">"</span></span>)
+library(<span class="pl-s"><span class="pl-pds">"</span>ttbbeer<span class="pl-pds">"</span></span>)</pre></div>
+
+<p>Or you can install the development version from Github:</p>
+
+<div class="highlight highlight-source-r"><pre>library(<span class="pl-smi">devtools</span>)
+install_github(<span class="pl-s"><span class="pl-pds">"</span>jasdumas/ttbbeer<span class="pl-pds">"</span></span>)
+library(<span class="pl-smi">ttbbeer</span>)</pre></div>
+
+<h2>
+<a id="how-to-use-this-package" class="anchor" href="#how-to-use-this-package" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use this package?</h2>
+
+<p>The components of the package are a data set called <code>beermaterials</code> which includes the materials used by U.S. breweries during beer production as reported on a monthly basis to the U.S. Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau (TTB) from 2006 to 2015. The other components of this package include <strong>eight data sets</strong> depicting the historical tax rate of distilled spirits, wine, beer, champagne, and tobacco. </p>
+
+<p>Several different types of data analysis projects can be conducted by using this data such as: <strong>Exploratory Data Analysis</strong>, and <strong>Time Series Analysis</strong>. The intended audience of this data is everyone but especially for those interested in open government data or beer analytics.</p>
+
+<div class="highlight highlight-source-r"><pre>data(<span class="pl-s"><span class="pl-pds">"</span>beermaterials<span class="pl-pds">"</span></span>)
+data(<span class="pl-s"><span class="pl-pds">"</span>artificialcarbontax<span class="pl-pds">"</span></span>)
+data(<span class="pl-s"><span class="pl-pds">"</span>champagnetax<span class="pl-pds">"</span></span>)
+data(<span class="pl-s"><span class="pl-pds">"</span>spirittax<span class="pl-pds">"</span></span>)
+data(<span class="pl-s"><span class="pl-pds">"</span>winetax14<span class="pl-pds">"</span></span>)
+data(<span class="pl-s"><span class="pl-pds">"</span>winetax1421<span class="pl-pds">"</span></span>)
+data(<span class="pl-s"><span class="pl-pds">"</span>winetax2124<span class="pl-pds">"</span></span>)
+data(<span class="pl-s"><span class="pl-pds">"</span>beertax<span class="pl-pds">"</span></span>)
+data(<span class="pl-s"><span class="pl-pds">"</span>tobaccotax<span class="pl-pds">"</span></span>)</pre></div>
+
+<p>This project is released with a <a href="https://github.com/jasdumas/ttbbeer/blob/master/CONDUCT.md">Contributor Code of Conduct</a>. By participating in this project you agree to abide by its terms.</p>
+
+<h2>
+<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h2>
+
+<p>Package Author: Jasmine Dumas <a href="https://twitter.com/jasdumas">@jasdumas</a> | <a href="http://jasdumas.github.io/">jasdumas.github.io</a> | <a href="https://github.com/jasdumas/ttbbeer/wiki">Package Wiki</a></p>
+
+<h2>
+<a id="support-on-beerpay" class="anchor" href="#support-on-beerpay" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support on Beerpay</h2>
+
+<p>Hey dude! Help me out for a couple of <g-emoji alias="beers" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f37b.png" ios-version="6.0">🍻</g-emoji>!</p>
+
+<p><a href="https://beerpay.io/jasdumas/ttbbeer"><img src="https://beerpay.io/jasdumas/ttbbeer/badge.svg?style=beer-square" alt="Beerpay"></a>  <a href="https://beerpay.io/jasdumas/ttbbeer?focus=wish"><img src="https://beerpay.io/jasdumas/ttbbeer/make-wish.svg?style=flat-square" alt="Beerpay"></a></p>
+        </section>
+
+        <footer>
+          Ttbbeer is maintained by <a href="https://github.com/jasdumas">jasdumas</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
