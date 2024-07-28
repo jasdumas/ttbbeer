@@ -1,6 +1,5 @@
-![](https://travis-ci.org/jasdumas/ttbbeer.svg?branch=master) [![Rdoc](http://www.rdocumentation.org/badges/version/ttbbeer)](http://www.rdocumentation.org/packages/ttbbeer)
-[![](http://cranlogs.r-pkg.org/badges/ttbbeer)](http://cran.rstudio.com/web/packages/ttbbeer/index.html)
-[![](http://cranlogs.r-pkg.org/badges/grand-total/ttbbeer)](http://cran.rstudio.com/web/packages/ttbbeer/index.html)
+![](https://cranlogs.r-pkg.org/badges/ttbbeer)
+![](https://cranlogs.r-pkg.org/badges/grand-total/ttbbeer)
 
 # ttbbeer
 
