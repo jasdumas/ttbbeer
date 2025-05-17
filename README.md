@@ -1,6 +1,12 @@
-![](https://travis-ci.org/jasdumas/ttbbeer.svg?branch=master) 
-
 # ttbbeer
+
+<img src="https://raw.githubusercontent.com/jasdumas/shinyLP/refs/heads/master/man/figures/shinylp-logo.png" align="right" alt="" width="200" />
+
+<!-- badges: start -->
+  [![CRAN status](https://www.r-pkg.org/badges/version/ttbbeer)](https://CRAN.R-project.org/package=ttbbeer)
+  [![Downloads](https://cranlogs.r-pkg.org/badges/ttbbeer)](https://cran.r-project.org/package=ttbbeer)
+  [![Total Downloads](https://cranlogs.r-pkg.org/badges/grand-total/ttbbeer)](https://cran.r-project.org/package=ttbbeer)
+<!-- badges: end -->
 
 ### An R data package of beer statistics from U.S. Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau (TTB)
 
@@ -47,4 +53,4 @@ This project is released with a [Contributor Code of Conduct](https://github.com
 
 ## Contact
 
-Package Author: Jasmine Dumas [@jasdumas](https://twitter.com/jasdumas) | [jasdumas.github.io](http://jasdumas.github.io/) | [Package Wiki](https://github.com/jasdumas/ttbbeer/wiki)
+Package Author: Jasmine Daly [dalyanalytics.com](https://dalyanalytics.com) 

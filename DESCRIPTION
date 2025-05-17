@@ -12,7 +12,7 @@ Description: U.S. Department of the Treasury, Alcohol and Tobacco Tax and
     forms, ready for data analysis. This package also includes historical
     tax rates on distilled spirits, wine, beer, champagne, and tobacco
     products as individual data sets.
-URL: https://github.com/jasdumas/ttbbeer
+URL: https://github.com/jasdumas/ttbbeer, http://jasminedaly.com/ttbbeer/
 BugReports: https://github.com/jasdumas/ttbbeer/issues
 Depends:
     R (>= 3.1.2)

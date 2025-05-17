@@ -11,3 +11,7 @@
 ^\.travis\.yml$
 ^get_data_process\.R$
 ^data-raw$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$
