@@ -1,6 +1,6 @@
 # ttbbeer
 
-<img src="https://raw.githubusercontent.com/jasdumas/shinyLP/refs/heads/master/man/figures/shinylp-logo.png" align="right" alt="" width="200" />
+<img src="https://raw.githubusercontent.com/jasdumas/ttbbeer/refs/heads/master/man/figures/ttbbeer-logo.png" align="right" alt="" width="200" />
 
 <!-- badges: start -->
   [![CRAN status](https://www.r-pkg.org/badges/version/ttbbeer)](https://CRAN.R-project.org/package=ttbbeer)
